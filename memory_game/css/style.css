@@ -64,13 +64,33 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+button {
+	display: block;
+	float: none;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	background-color: #F15B31;
+	color: #FFFFFF;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 50px auto;
+}
+.scoreBoard {
+	font-family: "Raleway", sans-serif;
+	float: none;
+	margin: 0px;
+}
 .copyright {
 	font-family: "Raleway", sans-serif;
 	float: left;
+	margin: 0px;
 }
 .message {
 	font-family: "Raleway", sans-serif;
 	float: right;
+	margin: 0px;
 }
 .clearfix:after {
 	visibility: hidden;
